@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 5rem;
+    border-radius: 2rem;
+}
+
+.projects-container h1 {
+    font-size: 3rem;
+    color: #09f172;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 900px;
+}
+
+.project-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.project-card h2 {
+    font-size: 1.8rem;
+    color: #09f172;
+    margin-bottom: 0.8rem;
+}
+
+.project-card p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 1rem;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #09f172;
+    color: #213547;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: #07c160;
+    color: white;
+}
+
+.tech-badge {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem 0.75rem;
+    margin: 0 0.25rem 1rem 0.25rem;
+    border-radius: 1rem;
+    display: inline-block;
+    font-size: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    white-space: nowrap;
+}
+
+.tech-badge:hover {
+    transform: scale(1.1);
+    color: #09f172;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
