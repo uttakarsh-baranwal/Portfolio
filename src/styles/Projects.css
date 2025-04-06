@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -16,14 +14,18 @@
 }
 
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
     width: 100%;
     max-width: 900px;
+    padding: 0 1rem;
 }
 
 .project-card {
+    flex: 1 1 300px;
+    max-width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
     border-radius: 1rem;
@@ -67,6 +69,7 @@
 .project-card a:hover {
     background-color: #07c160;
     color: white;
+    transform: scale(1.05);
 }
 
 .tech-badge {
@@ -85,4 +88,63 @@
     transform: scale(1.1);
     color: #09f172;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .projects-container h1 {
+        font-size: 2rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .project-card {
+        padding: 1rem;
+        flex: 1 1 250px;
+    }
+
+    .project-card h2 {
+        font-size: 1.75rem;
+    }
+
+    .project-card p {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .project-card a {
+        padding: 0.6rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-container {
+        padding: 0.5rem 1.25rem;
+    }
+
+    .projects-container h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .projects-container {
+        padding: 0;
+    }
+
+    .project-card {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 315px) {
+    .projects-container {
+        padding: 0;
+    }
+
+    .project-card {
+        max-width: 200px;
+    }
 }

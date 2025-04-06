@@ -9,7 +9,7 @@ export default function About() {
 
             <div className="about-section">
                 <h2>Who I Am</h2>
-                <div className="first-right">
+                <div className="about-right">
                     <img src={main_img} alt="Programmer doing coding" />
                 </div>
                 <p>

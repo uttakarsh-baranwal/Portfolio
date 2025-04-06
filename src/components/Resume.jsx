@@ -18,7 +18,7 @@ export default function Resume() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const scale = width > 1000 ? 1.33 : width > 768 ? 1.0 : 0.6;
+  const scale = width > 1000 ? 1.33 : width > 768 ? 1.0 : width > 420 ? 0.6 : width > 310 ? 0.4 : 0.3;
   return (
     <div className="resume-container">
       <Document file="/resume.pdf" >

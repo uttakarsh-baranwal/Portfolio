@@ -12,11 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid green;
-    box-shadow: 15px 15px 25px #09f17233;
-    border-radius: 2rem; */
     min-height: 500px;
-    /* padding: 0 5rem; */
     max-width: 900px;
 }
 
@@ -146,4 +142,123 @@
     transform: scale(1.1);
     color: #09f172;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px){
+    .Home-Container {
+        padding: 2rem;
+    }
+
+    .Home-Container h1 {
+        font-size: 2.5rem;
+    }
+
+    .Home-Container h2 {
+        font-size: 1.75rem;
+    }
+
+    .Home-Second h2 {
+        font-size: 1.75rem;
+    }
+
+    .Home-Third h2 {
+        font-size: 1.75rem;
+    }
+
+    .Home-Container p {
+        font-size: 1.1rem;
+    }
+
+    .Home-Second li {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .Home-Container img {
+        max-width: 100%;
+    }
+
+    .Home-First {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-right {
+        max-width: 300px;
+    }
+
+    .skill-card {
+        height: 4rem;
+        width: 6rem;
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .Home-Container {
+        padding: 1rem;
+    }
+
+    .Home-Container h1 {
+        font-size: 2rem;
+    }
+
+    .Home-Container h2 {
+        font-size: 1.5rem;
+    }
+
+    .Home-Second h2 {
+        font-size: 1.5rem;
+    }
+
+    .Home-Third h2 {
+        font-size: 1.5rem;
+    }
+
+    .Home-Container p {
+        font-size: 1rem;
+    }
+
+    .Home-First li {
+        font-size: 0.95rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .Home-Container {
+        padding: 0;
+    }
+
+    .Home-Container h1 {
+        font-size: 2rem;
+    }
+
+    .Home-Container h2 {
+        font-size: 1.5rem;
+    }
+
+    .Home-Second h2 {
+        font-size: 1.5rem;
+    }
+
+    .Home-Third h2 {
+        font-size: 1.5rem;
+    }
+
+    .Home-Container p {
+        font-size: 1rem;
+    }
+
+    .Home-First li {
+        font-size: 0.95rem;
+        width: 100%;
+    }
+
+    .first-right{
+        min-width: 200px;
+    }
 }
