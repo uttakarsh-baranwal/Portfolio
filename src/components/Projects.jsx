@@ -5,19 +5,19 @@ const projects = [
         title: "Wanderlust",
         description: "A travel booking website with interactive UI and search features.",
         technologies: ["Express", "Node.js", "MongoDB"],
-        link: "https://github.com/uttakarsh-baranwal/WanderLust"
+        link: "https://github.com/uttakarsh-barnwal/WanderLust"
     },
     {
         title: "TypeMeter",
         description: "A python project which measures the typing speed of the user.",
         technologies: ["Python", "Time Module", "Keyboard Module"],
-        link: "https://github.com/uttakarsh-baranwal/typemeter"
+        link: "https://github.com/uttakarsh-barnwal/typemeter"
     },
     {
         title: "FlappyBird WebGame",
         description: "A flappy bird game which is made on react.",
         technologies: ["React", "CSS"],
-        link: "https://github.com/uttakarsh-baranwal/FlappyBird"
+        link: "https://github.com/uttakarsh-barnwal/FlappyBird"
     },
     {
         title: "Project 4",
