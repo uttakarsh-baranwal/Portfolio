@@ -30,7 +30,7 @@ export default function Navbar() {
                     <button className="nav-btn" onClick={() => handleNavigate("/about")}>About</button>
                     <button className="nav-btn" onClick={() => handleNavigate("/projects")}>Projects</button>
                     <button className="nav-btn" onClick={() => handleNavigate("/resume")}>Resume</button>
-                    <a className="code-btn nav-btn" href="https://github.com/uttakarsh-baranwal/Portfolio" target="_blank" rel="noopener noreferrer">
+                    <a className="code-btn nav-btn" href="https://github.com/uttakarsh-barnwal/Portfolio" target="_blank" rel="noopener noreferrer">
                         <FaCodeBranch />
                     </a>
                 </div>

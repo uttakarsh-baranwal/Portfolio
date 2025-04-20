@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="footer-links">
                     <a href="https://www.instagram.com/utkar_shhhhhhhh/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                     <a href="https://www.linkedin.com/in/uttakarsh-baranwal/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                    <a href="https://github.com/uttakarsh-baranwal" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href="https://github.com/uttakarsh-barnwal" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
                     <a href="mailto:utkarshbarnwal85366@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} /></a>
                 </div>
                 <p>Designed and Developed by Uttakarsh.</p>
